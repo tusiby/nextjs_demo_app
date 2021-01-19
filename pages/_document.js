@@ -16,6 +16,12 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
+                <style jsx>{`
+                    body {
+                        padding: 0;
+                        margin: 0;
+                    }
+                `}</style>
             </Html>
         )
     }
