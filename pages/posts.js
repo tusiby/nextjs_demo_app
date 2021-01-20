@@ -1,10 +1,16 @@
 import { MainLayout } from '../layouts/MainLayout'
 import { PostComponent } from '../components/PostComponent'
+const R = require('ramda')
 
 export default function Posts ({ res }) {
+    const posts = R.map(post => R.omit(['description', 'relatedProducts'], post), res)
     return (
         <MainLayout title="Posts Page">
-            {res.length && res.map((post, index) => <PostComponent post={post} key={index}/>)}
+            {posts.length && posts.map((post, index) => {
+                return (
+                    <PostComponent post={post} key={index} />
+                )
+            })}
         </MainLayout>
     )
 }

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Logo from '../images/Logo'
+import Logo from '../public/images/Logo'
 
 export function MainLayout({ children, title = "Main Page" }) {
     return (
