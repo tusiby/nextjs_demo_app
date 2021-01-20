@@ -1,0 +1,66 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "description": "Board the Millennium Falcon and start a journey to a galaxy far, far away! From the upcoming new Star Wars film Solo: A Star Wars Story, comes this Funko Shop limited edition exclusive Mudtrooper Pop! Vinyl Figure!",
+            "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+            "image": "/star-wars/img-01.jpg",
+            "name": "Cara Dune",
+            "price": 1599,
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/star-wars/img-02.jpg",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/star-wars/img-03.jpg",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/star-wars/img-04.jpg",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "description": "Board the Millennium Falcon and start a journey to a galaxy far, far away! From the upcoming new Star Wars film Solo: A Star Wars Story, comes this Funko Shop limited edition exclusive Mudtrooper Pop! Vinyl Figure!",
+            "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+            "image": "/star-wars/img-01.jpg",
+            "name": "Cara Dune",
+            "price": 1599,
+            "relatedProducts": [
+                {
+                    "id": 1,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/star-wars/img-02.jpg",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/star-wars/img-03.jpg",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/star-wars/img-04.jpg",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
+        }
+    ]
+}
