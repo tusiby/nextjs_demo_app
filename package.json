@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "concurrently \"npm run build\" \"npm run mock\"",
     "start": "next start",
     "serve": "concurrently \"npm run dev\" \"npm run mock\"",
     "mock": "json-server -w db.json -p 4300 -d 1750"
