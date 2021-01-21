@@ -7,7 +7,29 @@
             "image": "/images/person1.png",
             "name": "Cara Dune",
             "price": 42.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 2,
@@ -16,7 +38,29 @@
             "image": "/images/person2.png",
             "name": "Rey Skywalker",
             "price": 13.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 1,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 3,
@@ -25,7 +69,29 @@
             "image": "/images/person3.png",
             "name": "Moff Gideon",
             "price": 15.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 1,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 4,
@@ -34,7 +100,29 @@
             "image": "/images/person4.png",
             "name": "Cara Dune",
             "price": 15.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 1,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 5,
@@ -43,7 +131,29 @@
             "image": "/images/person5.png",
             "name": "Rey Skywalker",
             "price": 29.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 6,
@@ -52,7 +162,29 @@
             "image": "/images/person6.png",
             "name": "Moff Gideon",
             "price": 25.99,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 7,
@@ -61,7 +193,29 @@
             "image": "/images/person7.png",
             "name": "Cara Dune",
             "price": 100,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/star-wars/img-04.jpg",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         },
         {
             "id": 8,
@@ -70,7 +224,29 @@
             "image": "/images/person8.png",
             "name": "Rey Skywalker",
             "price": 8.39,
-            "relatedProducts": []
+            "relatedProducts": [
+                {
+                    "id": 2,
+                    "shortDescription": "She's a force-sensitive human who became Jedi after years of living as scavenger.",
+                    "image": "/images/person2.png",
+                    "name": "Rey Skywalker",
+                    "price": 1599
+                },
+                {
+                    "id": 3,
+                    "shortDescription": "Imperial service. Gideon is a human who serves as an officer in the Imperial Security",
+                    "image": "/images/person3.png",
+                    "name": "Moff Gideon",
+                    "price": 1599
+                },
+                {
+                    "id": 4,
+                    "shortDescription": "Veteran of the Galactic Civil War who fought under the banner of the Rebellion.",
+                    "image": "/images/person4.png",
+                    "name": "Cara Dune",
+                    "price": 1599
+                }
+            ]
         }
     ],
     "meta": {

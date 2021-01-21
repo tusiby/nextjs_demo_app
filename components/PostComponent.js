@@ -1,34 +1,34 @@
 import Image from 'next/image'
-import { useRouter } from 'next/router'
 
-export function PostComponent({ post }) {
-    const router = useRouter()
-
+export default function PostComponent({ post }) {
     return (
-        <div className="post-container" onClick={() => window.location.assign(`/post/${post.id}`)} >
-            <Image
-                src={post.image}
-                alt="person_image"
-                width="200px" 
-                height="0"
-            />
-            <div className="data">
-                <div className="name">{post.name}</div>
-                <div className="description">{post.shortDescription}</div>
-                <button>{`Buy $${post.price}`}</button>
+        <>
+            <div className="post-container" onClick={() => window.location.assign(`/post/${post.id}`)} >
+                <div className="image-container">
+                    <Image
+                        src={post.image}
+                        alt="person_image"
+                        width={240}
+                        height={200}
+                    />
+                </div>
+                <div className="data">
+                    <div className="name">{post.name}</div>
+                    <div className="description">{post.shortDescription}</div>
+                    <button>{`Buy $${post.price}`}</button>
+                </div>    
             </div>
             <style jsx>{`
                 .post-container {
-                    height: 520px;
                     width: 100%;
                     box-sizing: border-box;
                     border-radius: 40px;
                     padding: 40px;
                     background: #F1F0FF;
                     display: grid;
-                    grid-template-rows: 1fr 180px;
-                    grid-gap: 20px;
                     grid-template-columns: 1fr;
+                    grid-template-rows: auto auto;
+                    grid-gap: 10px;
                 }
 
                 .post-container:hover {
@@ -36,23 +36,27 @@ export function PostComponent({ post }) {
                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 }
 
-                .data {
+                .image-container {
                     width: 100%;
+                    height: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
                     display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                    justify-content: center;
                 }
 
                 .name {
+                    margin-top: 20px;
                     font-family: Spartan;
                     font-weight: 700;
                     font-size: 32px;
                     text-align: center;
                     color: #232329;
+                    white-space: nowrap;
                 }
 
                 .description {
-                    margin-top: 15px;
+                    margin-top: 20px;
                     font-family: Spartan;
                     font-weight: 500;
                     font-size: 18px;
@@ -61,7 +65,9 @@ export function PostComponent({ post }) {
                 }
 
                 button {
-                    margin-top: 20px;
+                    margin-top: 30px;
+                    margin-left: auto;
+                    margin-right: auto;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -76,6 +82,6 @@ export function PostComponent({ post }) {
                     font-weight: bold;
                 }
             `}</style>
-        </div>
+        </>
     )
 }

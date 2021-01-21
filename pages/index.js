@@ -1,5 +1,5 @@
 export const getServerSideProps = async ({ res }) => {
-  res.setHeader("location", `/posts`);
+  res.setHeader("location", `/posts`)
 
   res.statusCode = 302;
   res.end();
@@ -7,6 +7,6 @@ export const getServerSideProps = async ({ res }) => {
   return { props: {} };
 };
 
-const Index = () => <></>;
+const Index = () => <></>
 
-export default Index;
+export default Index

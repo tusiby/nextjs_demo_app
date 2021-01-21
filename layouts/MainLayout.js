@@ -1,30 +1,10 @@
-import Head from 'next/head'
-import Logo from '../public/images/Logo'
-
 export function MainLayout({ children, title = "Main Page" }) {
     return (
         <>
-            <Head>
-                <title>{title}</title>
-            </Head>
-            <div className="container">
-                <header><Logo /></header>
-                <main>{ children }</main>
-            </div>
+            <main>
+                {children}
+            </main>
             <style jsx>{`
-                .container {
-                    display: grid;
-                    grid-template-rows: 80px 1fr;
-                    height: 100vh;
-                }
-
-                header {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100%;
-                }
-
                 main {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
@@ -32,12 +12,13 @@ export function MainLayout({ children, title = "Main Page" }) {
                     grid-row-gap: 48px;
                     padding: 60px;
                 }
-                @media (max-width: 980px) {
+                @media (max-width: 1024px) {
                     main {
                         grid-template-columns: 1fr 1fr;
+                        padding: 30px;
                     }
                 }
-                @media (max-width: 360px) {
+                @media (max-width: 640px) {
                     main {
                         grid-template-columns: 1fr;
                     }

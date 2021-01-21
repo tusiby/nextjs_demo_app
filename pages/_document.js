@@ -7,8 +7,8 @@ export default class MyDocument extends Document {
                 <Head>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet"></link>
                     <meta name="description" content="Demo App" />
                     <meta name="keywords" content="react,ssr,next,js" />
                     <meta name="author" content="Denis Lukin" />
