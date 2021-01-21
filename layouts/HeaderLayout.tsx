@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Logo from '../public/images/Logo'
 
-export function HeaderLayout({ children, title = "Main Page" }) {
+export function HeaderLayout({ title = "Main Page" }) {
     return (
         <>
             <Head>

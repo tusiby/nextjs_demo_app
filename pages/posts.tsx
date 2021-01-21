@@ -1,9 +1,14 @@
 import { HeaderLayout } from '../layouts/HeaderLayout'
 import { MainLayout } from '../layouts/MainLayout'
 import PostComponent from '../components/PostComponent'
+import { IPost } from '../interfaces/Posts'
 const R = require('ramda')
 
-export default function Posts ({ res }) {
+interface IPosts {
+    res: IPost[]
+}
+
+export default function Posts ({ res } : IPosts) {
     const posts = R.map(post => R.omit(['description', 'relatedProducts'], post), res)
     return (
         <>
@@ -46,7 +51,7 @@ export default function Posts ({ res }) {
     )
 }
 
-Posts.getInitialProps = async ({ ctx, pathname }) => {
+Posts.getInitialProps = async () => {
     const req = await fetch(`${process.env.API_URL}/posts`)
     const res = await req.json()
     return {
